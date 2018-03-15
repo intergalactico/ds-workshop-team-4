@@ -5,8 +5,8 @@ export const Section = styled.div`
   background: ${p => p.backgroundColor};
   background-image: url(${p => p.image}) !important;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: 50% 0%;
   width: 100%;
   padding: 60px 20px;
-  
+
 `

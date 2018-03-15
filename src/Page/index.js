@@ -36,10 +36,16 @@ const Page = (props) => {
       </style>
       <Section image={ newBackground }>
         <Nav />
-        <img src={ logo } width="30%" style={{margin: "35%"}} />
+        <img src={ logo } width="30%" style={{margin: "15% 35% 10% 35%"}} />
         <ts.Header1>A DESIGN SYSTEMS CONFERENCE</ts.Header1>
-        <ts.Header2>MARCH 14th – 15th, 2018
-                    IN HELSINKI, FINLAND</ts.Header2>
+        <ts.Header2>March 14th - 15th, 2018 in Helsinki, Finland</ts.Header2>
+        <Button
+          color="none"
+          style={{border: "solid 2px white", margin:"30px auto", "fontSize": "19px", "width": "100%", "font-family": "Assistant, sans-serif", "font-weight": "800", "padding": "20px"}}
+          textColor="white"
+          href="#">
+          Buy worksbop tickets
+          </Button>
 
       </Section>
       <Section backgroundColor="#0098B0">

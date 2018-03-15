@@ -70,6 +70,7 @@ export const Header1 = styled.h1`
   font-weight: 800;
   color: ${colors.darkwhite};
   font-size: 32px;
+  text-align: center;
 `;
 
 export const Header2 = styled.h2`
@@ -79,6 +80,7 @@ export const Header2 = styled.h2`
   line-height: 1.4em;
   margin: 0;
   font-weight: 800;
+  text-align: center;
 `;
 
 export const Header2Centered = styled.h2`
