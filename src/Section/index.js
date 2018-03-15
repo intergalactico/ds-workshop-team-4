@@ -4,7 +4,7 @@ import * as s from './styles.js'
 
 const Section = (props) => {
   return (
-    <s.Section>Section</s.Section>
+    <s.Section image={props.image} backgroundColor={props.backgroundColor}>{props.children}</s.Section>
   )
 }
 
