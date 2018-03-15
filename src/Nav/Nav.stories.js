@@ -5,5 +5,7 @@ import Nav from '.'
 
 storiesOf('Nav', module)
   .add('index', () => (
+  	<div style={{backgroundColor: "black"}}>
     <Nav />
+    </div>
   ))
