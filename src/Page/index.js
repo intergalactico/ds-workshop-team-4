@@ -15,6 +15,15 @@ import colors from '../Colors/colorset';
 
 import blueBackgroundImg from '../../assets/dsconf2-wide.jpg';
 
+import elisa from '../../assets/Elisa.png';
+import abstract from '../../assets/abstract-dark.png';
+import eficode from '../../assets/eficode-light.png';
+import futurice from '../../assets/futurice-light.png';
+import idean from '../../assets/idean-light.png';
+import intergalactico from '../../assets/intergalactico-dark.png';
+import smartly from '../../assets/smartly-dark.png';
+
+import Logo from '../Logo/index';
 
 
 const Page = (props) => {
@@ -55,11 +64,6 @@ const Page = (props) => {
             WORKSHOP TICKETS</Button>
         </div>
       </Section>
-      <section id="blue-info"></section>
-      <section id="white-keynotes"></section>
-      <section id="blue-tickets"></section>
-      <section id="blue-venue"></section>
-      <section id="black-partners"></section>
       <Section image={ blueBackgroundImg }>
         <ts.Header2>A venue dedicated to learning, at the heart of the city!</ts.Header2>
         <ts.PWhite>The conference will be held at Helsinki university’s Great Hall which is a gorgeous space and has a rich history. It’s practically in the center of Helsinki and next to the well known Helsinki Cathedral.
@@ -73,6 +77,18 @@ const Page = (props) => {
           >
             VENUE & LOCATION</Button>
         </div>
+      </Section>
+      <Section backgroundColor="black" style={{textAlign: 'center'}}>
+        <ts.Header2Centered>Main organiser</ts.Header2Centered>
+        <Logo src={ elisa } />
+        <ts.Header2Centered>Partners</ts.Header2Centered>
+        <Logo src={ abstract } />
+        <Logo src={ eficode } />
+        <Logo src={ futurice } />
+        <Logo src={ idean } />
+        <Logo src={ intergalactico } />
+        <Logo src={ smartly } />
+        {/*<ts.Header2Centered>Supported by</ts.Header2Centered>*/}
       </Section>
       <Section id="gray-form-feed" backgroundColor={colors.darkgray}>
         <ts.Header2>Stay up to date</ts.Header2>
@@ -91,8 +107,8 @@ const Page = (props) => {
           textColor="white"
           href="#"
         >SUBSCRIBE</Button>
-
       </Section>
+
     </s.Page>
   )
 }

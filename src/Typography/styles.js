@@ -81,6 +81,16 @@ export const Header2 = styled.h2`
   font-weight: 200;
 `;
 
+export const Header2Centered = styled.h2`
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 24px;
+  color: ${colors.darkwhite};
+  line-height: 1.4em;
+  margin: 0;
+  font-weight: 200;
+  text-align: center;
+`;
+
 export const Header3 = styled.h3`
   font-family: lato, sans-serif;
   font-size: 16px;
