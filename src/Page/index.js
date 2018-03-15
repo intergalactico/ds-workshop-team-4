@@ -102,7 +102,7 @@ const Page = (props) => {
         {/*<ts.Header2Centered>Supported by</ts.Header2Centered>*/}
       </Section>
 
-      <Section id="gray-form-feed" backgroundColor={colors.darkgray}>
+      <Section id="gray-form-feed" backgroundColor="#0098B0">
         <ts.Header2>Stay up to date</ts.Header2>
         <ts.PWhite>
           We will use the information you provided to share with you the information on when the tickets launch, and critical updates about the event.
