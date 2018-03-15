@@ -3,6 +3,7 @@ import Section from '../Section/index'
 import Nav from '../Nav/index'
 
 import heroBackground from '../../assets/dsconf-wide.jpg';
+import newBackground from '../../assets/newBackground.jpg';
 import logo from '../../assets/dsconf-logo.png';
 
 import * as s from './styles.js'
@@ -26,10 +27,11 @@ import smartly from '../../assets/smartly-dark.png';
 import Logo from '../Logo/index';
 
 
+
 const Page = (props) => {
   return (
     <s.Page style={{width: "320px"}}>
-      <Section image={ heroBackground }>
+      <Section image={ newBackground }>
         <Nav />
         <img src={ logo } width="30%" style={{margin: "35%"}} />
         <ts.Header1>A DESIGN SYSTEMS CONFERENCE</ts.Header1>
