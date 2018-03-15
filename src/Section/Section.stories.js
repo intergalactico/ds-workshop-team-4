@@ -11,7 +11,6 @@ storiesOf('Section', module)
     .add('index', withInfo()(() => {
         return (
             <div style={{width: "350px"}}>
-                <Section backgroundColor="red">Section 1</Section>
                 <Section backgroundColor="#0E1116">
                     <ts.Header2>A two-day conference with one day of keynotes & one day of workshops.</ts.Header2>
                     <ts.PWhite>DSCONF aims to bring people together to exchange ideas, solutions, inspiration, and learn how to build digital products better and more efficiently with Design Systems.
@@ -27,7 +26,6 @@ storiesOf('Section', module)
                         WORKSHOP TICKETS</Button>
                     </div>
                 </Section>
-                <Section image={avatar}>Section 3 with backgournimage</Section>
             </div>
         );
     }))
