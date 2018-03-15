@@ -6,20 +6,15 @@
  */
 import Box from 'Box';
 import Button from 'Button';
+import Colors from 'Colors';
 import Icon from 'Icon';
 import Nav from 'Nav';
+import Page from 'Page';
 import TeamMember from 'TeamMember';
-import Section, {SectionHeader, SectionText} from 'Section';
+import Section from 'Section';
 import Typography from 'Typography';
 
-export {
-  Box,
-  Button,
-  Icon,
-  Nav,
-  TeamMember,
-  Section,
-  SectionHeader,
-  SectionText,
-  Typography
-};
+
+export { Box, Button, Colors, Icon, Nav, Page, Section, TeamMember, Typography };
+
+
