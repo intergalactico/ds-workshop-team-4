@@ -1,9 +1,9 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import Section from '.'
+import Page from '.'
 
-storiesOf('Section', module)
+storiesOf('Page', module)
   .add('index', () => (
-    <Section />
+    <Page />
   ))
