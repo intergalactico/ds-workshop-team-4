@@ -10,7 +10,7 @@ import * as ts from '../Typography/styles.js';
 import Button from '../Button/index'
 
 import TeamMember from '../TeamMember/index';
-
+import colors from '../Colors/colorset';
 
 const Page = (props) => {
   return (
@@ -55,7 +55,25 @@ const Page = (props) => {
       <section id="blue-tickets"></section>
       <section id="blue-venue"></section>
       <section id="black-partners"></section>
-      <section id="gray-form-feed"></section>
+      <Section id="gray-form-feed" backgroundColor={colors.darkgray}>
+        <ts.Header2>Stay up to date</ts.Header2>
+        <ts.PWhite>
+          We will use the information you provided to share with you the information on when the tickets launch, and critical updates about the event.
+        </ts.PWhite>
+        <p>
+          <s.input id="et_pb_signup_firstname" className="input" type="text" placeholder="Name" name="et_pb_signup_firstname" />
+        </p>
+        <p>
+          <s.input id="et_pb_signup_firstname" className="input" type="text" placeholder="Email" name="et_pb_signup_firstname" />
+        </p>
+        <Button
+          color="none"
+          style={{border: "solid 1px white", margin:"30px 0", fontSize: "18px", width: "100%"}}
+          textColor="white"
+          href="#"
+        >SUBSCRIBE</Button>
+
+      </Section>
       <section id="footer"></section>
     </s.Page>
   )
