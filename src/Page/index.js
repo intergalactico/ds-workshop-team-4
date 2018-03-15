@@ -1,13 +1,16 @@
 import React from 'react'
 import Section from '../Section/index'
+import Nav from '../Nav/index'
 
 import * as s from './styles.js'
 
 const Page = (props) => {
   return (
     <s.Page>Page
-      <Section></Section>
-      <section id="navbar"></section>
+      <Section backgroundColor='#fafafa'>
+      <Nav />
+      </Section>
+
       <section id="hero"></section>
       <section id="blue-info"></section>
       <section id="white-keynotes"></section>

@@ -5,5 +5,9 @@ import Section from '.'
 
 storiesOf('Section', module)
   .add('index', () => (
-    <Section />
+    <div>
+        <Section backgroundColor="red"/>
+        <Section backgroundColor="blue"/>
+        <Section image="red"/>
+    </div>
   ))
