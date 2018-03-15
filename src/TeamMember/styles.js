@@ -41,6 +41,6 @@ export const IconListItem = styled.li`
 `;
 
 export const IconLink = styled.a`
-  color: ${colors.grey};
+  color: ${colors.lightgray};
   text-decoration: none;
 `;

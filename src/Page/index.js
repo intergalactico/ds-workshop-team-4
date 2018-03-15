@@ -9,6 +9,7 @@ import * as s from './styles.js'
 import * as ts from '../Typography/styles.js';
 import Button from '../Button/index'
 
+import TeamMember from '../TeamMember/index';
 
 
 const Page = (props) => {
@@ -29,6 +30,12 @@ const Page = (props) => {
           Sounds good? Make sure you familiarize yourself with our code of conduct.</ts.PWhite>
       </Section>
       <Section backgroundColor="#F8FBFE">
+        <TeamMember
+          name="Donald Duck"
+          title="Director of Everything"
+          social={{twitter: "donaldducknl" }}
+          avatar="/7d4662477a7be3fbf57a81907d19c595.jpg"
+        />
       </Section>
       <Section backgroundColor="#0E1116">
         <ts.Header2>450 seats reserved. Tickets are sold out.</ts.Header2>
