@@ -25,21 +25,7 @@ storiesOf('Button', module) // eslint-disable-line no-undef
       return (
         <div>
           <Box>
-            <Button onClick={function(){ alert('You clicked!'); }}>I am just a button</Button>
-          </Box>
-          <Box>
-            <Button color='#1b8ceb' textColor="#fff" href="http://sc5.io">I am a link button</Button>
-            <Button color='#1b8ceb' textColor="#fff" disabled href="http://sc5.io">Disabled button with link</Button>
-          </Box>
-          <Box>
-            <Button color='#00d1b2' textColor="#fff" size='1rem'>
-              <Icon name='stack-overflow' />
-               Button with Icon
-            </Button>
-          </Box>
-          <Box>
-            <Button color='#000' textColor="#fff" label='2048'>Like</Button>
-            <Button color='#00d1b2' textColor="#fff" label='2048'>Like</Button>
+            <Button color='white' style={{border: 'solid 1px #021a72'}} textColor="#021a72" href="#">I AM A LINK BUTTON</Button>
           </Box>
         </div>
       );
@@ -49,29 +35,10 @@ storiesOf('Button', module) // eslint-disable-line no-undef
       return (
         <div>
           <Box>
-            <Button>Normal</Button>
-            <Button color='#1b8ceb' textColor="#fff">Primary</Button>
-            <Button color='#00d1b2' textColor="#fff">Success</Button>
-            <Button color='#e91e63' textColor="#fff">Danger</Button>
-            <Button color='#888888' textColor="#fff">Gray</Button>
-            <Button color='#888888' textColor="#fff" tone={2}>Light</Button>
-            <Button color='#000' textColor="#fff">Black</Button>
+            <Button color='white' style={{border: 'solid 1px #021a72'}} textColor="#021a72" href="#">NORMAL</Button>
           </Box>
-          <Box color='#00d1b2'>
-            <Button as='div' isInverted>Normal</Button>
-            <Button color='#1b8ceb' textColor="#fff" isInverted>Primary</Button>
-            <Button color='#00d1b2' textColor="#fff" isInverted>Success</Button>
-            <Button color='#e91e63' textColor="#fff" isInverted>Danger</Button>
-            <Button color='#888888' textColor="#fff" isInverted>Gray</Button>
-            <Button color='#888888' textColor="#fff" tone={2} isInverted>Light</Button>
-            <Button color='#000' textColor="#fff" isInverted>Black</Button>
-          </Box>
-          <Box>
-            <Button color='#1b8ceb' textColor="#fff" isOutlined>Primary</Button>
-            <Button color='#00d1b2' textColor="#fff" isOutlined>Success</Button>
-            <Button color='#e91e63' textColor="#fff" isOutlined>Danger</Button>
-            <Button color='#888888' textColor="#fff" isOutlined>Grayscale</Button>
-            <Button color='#000' textColor="#fff" isOutlined>Black</Button>
+          <Box color="#494949">
+            <Button color='none' style={{border: 'solid 1px white'}} textColor="white" href="#">INVERTED</Button>
           </Box>
         </div>
       );
