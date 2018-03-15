@@ -9,7 +9,11 @@ import * as s from './styles.js'
 import * as ts from '../Typography/styles.js';
 import Button from '../Button/index'
 
+
 import TeamMember from '../TeamMember/index';
+
+import blueBackgroundImg from '../../assets/dsconf2-wide.jpg';
+
 
 
 const Page = (props) => {
@@ -50,13 +54,20 @@ const Page = (props) => {
             WORKSHOP TICKETS</Button>
         </div>
       </Section>
-      <section id="blue-info"></section>
-      <section id="white-keynotes"></section>
-      <section id="blue-tickets"></section>
-      <section id="blue-venue"></section>
-      <section id="black-partners"></section>
-      <section id="gray-form-feed"></section>
-      <section id="footer"></section>
+      <Section image={ blueBackgroundImg }>
+        <ts.Header2>A venue dedicated to learning, at the heart of the city!</ts.Header2>
+        <ts.PWhite>The conference will be held at Helsinki university’s Great Hall which is a gorgeous space and has a rich history. It’s practically in the center of Helsinki and next to the well known Helsinki Cathedral.
+          <br />Evening party after the conference day will take place at Restaurant Teatteri. Party site is just 500 meters / 5min walk away from the conference site.</ts.PWhite>
+        <div style={{textAlign: "center"}}>
+          <Button
+            color="none"
+            style={{border: "solid 1px white", margin:"30px auto"}}
+            textColor="white"
+            href="#"
+          >
+            VENUE & LOCATION</Button>
+        </div>
+      </Section>
     </s.Page>
   )
 }
