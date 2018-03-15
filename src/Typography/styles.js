@@ -94,6 +94,11 @@ export const P = styled.p`
   color: ${colors.dark};
 `;
 
+export const PWhite = styled.p`
+  font-family: lato;
+  color: ${colors.darkwhite};
+`;
+
 /*
  * In ordder to show in the story (documentation) what are the available
  * fonts, this component provides styles for each font. They are not
