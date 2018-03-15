@@ -1,6 +1,12 @@
 export default {
+  // dark background for sponsors and footer
   dark: '#353740',
-  grey: '#747d88',
-  darkblue: '#01092F',
-  lightgreen: '#79C8AF'
+  // gray background for the form and feed
+  darkgray: '#494949',
+  // blue background
+  darkblue: '#0E1116',
+  // cards background
+  darkwhite: '#F8FBFE',
+  // for cards titles
+  lightgray: '#757E87',
 };
