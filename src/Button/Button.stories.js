@@ -63,22 +63,4 @@ storiesOf('Button', module) // eslint-disable-line no-undef
           </Box>
         </div>
       );
-  }))
-  .add('with icon',
-    withInfo()(() => {
-      return (
-        <Box>
-          <Button color='#1b8ceb' textColor="#fff" size='1rem'>
-            <Icon name='star' />
-            Some text
-          </Button>
-          <Button color='#00d1b2' textColor="#fff" size='0.785rem' isOutlined>
-            <Icon name='star' />
-            Some text
-          </Button>
-          <Button color='#888888' textColor="#fff" tone={2} size='1rem' isIcon>
-            <Icon name='stack-overflow' />
-          </Button>
-        </Box>
-      );
   }));
