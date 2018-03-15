@@ -67,14 +67,18 @@ import colors from '../Colors/colorset';
 
 export const Header1 = styled.h1`
   font-family: futura-pt-bold;
+  font-weight: 500;
+  color: ${colors.darkwhite};
+  font-size: 32px;
 `;
 
 export const Header2 = styled.h2`
   font-family: futura-pt-bold, sans-serif;
-  font-size: 22px;
-  color: ${colors.dark};
+  font-size: 24px;
+  color: ${colors.darkwhite};
   line-height: 1.4em;
   margin: 0;
+  font-weight: 200;
 `;
 
 export const Header3 = styled.h3`
