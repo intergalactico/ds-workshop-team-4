@@ -9,8 +9,13 @@ import * as s from './styles.js'
 import * as ts from '../Typography/styles.js';
 import Button from '../Button/index'
 
+
 import TeamMember from '../TeamMember/index';
 import colors from '../Colors/colorset';
+
+import blueBackgroundImg from '../../assets/dsconf2-wide.jpg';
+
+
 
 const Page = (props) => {
   return (
@@ -55,6 +60,20 @@ const Page = (props) => {
       <section id="blue-tickets"></section>
       <section id="blue-venue"></section>
       <section id="black-partners"></section>
+      <Section image={ blueBackgroundImg }>
+        <ts.Header2>A venue dedicated to learning, at the heart of the city!</ts.Header2>
+        <ts.PWhite>The conference will be held at Helsinki university’s Great Hall which is a gorgeous space and has a rich history. It’s practically in the center of Helsinki and next to the well known Helsinki Cathedral.
+          <br />Evening party after the conference day will take place at Restaurant Teatteri. Party site is just 500 meters / 5min walk away from the conference site.</ts.PWhite>
+        <div style={{textAlign: "center"}}>
+          <Button
+            color="none"
+            style={{border: "solid 1px white", margin:"30px auto"}}
+            textColor="white"
+            href="#"
+          >
+            VENUE & LOCATION</Button>
+        </div>
+      </Section>
       <Section id="gray-form-feed" backgroundColor={colors.darkgray}>
         <ts.Header2>Stay up to date</ts.Header2>
         <ts.PWhite>
@@ -74,7 +93,6 @@ const Page = (props) => {
         >SUBSCRIBE</Button>
 
       </Section>
-      <section id="footer"></section>
     </s.Page>
   )
 }
