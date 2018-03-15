@@ -46,13 +46,22 @@ storiesOf('Button', module) // eslint-disable-line no-undef
   .add('with different size',
     withInfo()(() => {
       return (
-        <Box>
-          <Button color='#1b8ceb' textColor="#fff" size='0.60rem'>Tiny</Button>
-          <Button color='#00d1b2' textColor="#fff" size='0.785rem'>Small</Button>
-          <Button color='#e91e63' textColor="#fff" size='1rem'>Normal</Button>
-          <Button color='#888888' textColor="#fff" size='1.5rem'>Large</Button>
-          <Button color='#000' textColor="#fff" size='2.0rem'>XLarge</Button>
-        </Box>
+        <div>
+          <Box>
+            <Button color='white' style={{border: 'solid 1px #021a72', fontSize: '14px'}} textColor="#021a72" href="#">SMALL</Button>
+            <Button color='white' style={{border: 'solid 1px #021a72', fontSize: '16px'}} textColor="#021a72" href="#">MEDIUM</Button>
+          </Box>
+          <Box style={{width: '360px'}}>
+            <Button color='white' style={{border: 'solid 1px #021a72', fontSize: '18px', width:"80%"}} textColor="#021a72" href="#">LARGE</Button>
+          </Box>
+          <Box color="#494949">
+            <Button color='none' style={{border: 'solid 1px white', fontSize: '14px'}} textColor="white" href="#">SMALL</Button>
+            <Button color='none' style={{border: 'solid 1px white', fontSize: '16px'}} textColor="white" href="#">MEDIUM</Button>
+          </Box>
+          <Box color="#494949" style={{width: '360px'}}>
+            <Button color='none' style={{border: 'solid 1px white', fontSize: '18px', width:"80%"}} textColor="white" href="#">LARGE</Button>
+          </Box>
+        </div>
       );
   }))
   .add('with icon',
