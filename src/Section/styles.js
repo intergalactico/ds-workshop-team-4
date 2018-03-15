@@ -1,8 +1,9 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
+import colors from '../Colors/colorset';
 
 export const Section = styled.div`
   background: ${p => p.backgroundColor};
   background-image: url(${p => p.image}) !important;
   width: 100%;
-  padding: 0 10%;
+  padding: 60px 20px;
 `
