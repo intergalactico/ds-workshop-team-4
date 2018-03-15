@@ -66,33 +66,33 @@ import colors from '../Colors/colorset';
  */
 
 export const Header1 = styled.h1`
-  font-family: futura-pt-bold;
-  font-weight: 500;
+  font-family: Assistant, sans-serif;
+  font-weight: 800;
   color: ${colors.darkwhite};
   font-size: 32px;
 `;
 
 export const Header2 = styled.h2`
-  font-family: futura-pt-bold, sans-serif;
+  font-family: Assistant, sans-serif;
   font-size: 24px;
   color: ${colors.darkwhite};
   line-height: 1.4em;
   margin: 0;
-  font-weight: 200;
+  font-weight: 800;
 `;
 
 export const Header2Centered = styled.h2`
-  font-family: futura-pt-bold, sans-serif;
+  font-family: Assistant, sans-serif;
   font-size: 24px;
   color: ${colors.darkwhite};
   line-height: 1.4em;
   margin: 0;
-  font-weight: 200;
+  font-weight: 800;
   text-align: center;
 `;
 
 export const Header3 = styled.h3`
-  font-family: lato, sans-serif;
+  font-family: Assistant, sans-serif;
   font-size: 16px;
   color: ${colors.grey};
   font-weight: 700;
@@ -100,12 +100,13 @@ export const Header3 = styled.h3`
 `;
 
 export const P = styled.p`
-  font-family: lato;
+  font-family: Assistant;
+  font-weight: 600;
   color: ${colors.dark};
 `;
 
 export const PWhite = styled.p`
-  font-family: lato;
+  font-family: Assistant;
   color: ${colors.darkwhite};
 `;
 
@@ -116,9 +117,9 @@ export const PWhite = styled.p`
  */
 
 export const FuturaBold = styled.p`
-  font-family: futura-pt-bold;
+  font-family: fAssistant;
 `;
 
 export const Lato = styled.p`
-  font-family: lato;
+  font-family: Assistant;
 `;

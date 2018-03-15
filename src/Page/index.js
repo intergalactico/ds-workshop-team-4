@@ -29,6 +29,9 @@ import Logo from '../Logo/index';
 const Page = (props) => {
   return (
     <s.Page style={{width: "320px"}}>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800');
+    </style>
       <Section image={ heroBackground }>
         <Nav />
         <img src={ logo } width="30%" style={{margin: "35%"}} />
@@ -37,13 +40,13 @@ const Page = (props) => {
                     IN HELSINKI, FINLAND</ts.Header2>
 
       </Section>
-      <Section backgroundColor="#0E1116">
+      <Section backgroundColor="#0098B0">
         <ts.Header2>A two-day conference with one day of keynotes & one day of workshops.</ts.Header2>
         <ts.PWhite>DSCONF aims to bring people together to exchange ideas, solutions, inspiration, and learn how to build digital products better and more efficiently with Design Systems.
           An event for digital product designers, builders, business owners and organizations who want to learn how to build design systems and why they are needed in the future. We are at a crossroads whereby making the right decisions, you will gain a significant business advantage and ensure the best possible user experience for your digital products and services.
           Sounds good? Make sure you familiarize yourself with our code of conduct.</ts.PWhite>
       </Section>
-      <Section backgroundColor="#F8FBFE">
+      <Section backgroundColor="#FAFAFA">
         <TeamMember
           name="Donald Duck"
           title="Director of Everything"
@@ -64,7 +67,7 @@ const Page = (props) => {
             WORKSHOP TICKETS</Button>
         </div>
       </Section>
-      <Section image={ blueBackgroundImg }>
+      <Section backgroundColor="#FF5100">
         <ts.Header2>A venue dedicated to learning, at the heart of the city!</ts.Header2>
         <ts.PWhite>The conference will be held at Helsinki university’s Great Hall which is a gorgeous space and has a rich history. It’s practically in the center of Helsinki and next to the well known Helsinki Cathedral.
           <br />Evening party after the conference day will take place at Restaurant Teatteri. Party site is just 500 meters / 5min walk away from the conference site.</ts.PWhite>
